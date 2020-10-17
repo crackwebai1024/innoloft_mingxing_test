@@ -1,0 +1,23 @@
+.wrapper {
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.5; */
+}
+
+.succ {
+  background-color: rgba(4, 105, 4, 0.376);
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #1f8327;
+}
+
+.fail {
+  background-color: rgba(204, 61, 5, 0.376);
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #801208;
+}

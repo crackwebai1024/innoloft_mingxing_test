@@ -1,0 +1,45 @@
+.wrapper {
+  min-height: 500px;
+}
+
+.tab {
+  height: 40px;
+  cursor: pointer;
+}
+.tab > div {
+  width: 50%;
+  float: left;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbb;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.tab > .active {
+  background-color: #fff;
+}
+
+.forms {
+  background-color: #fff;
+  min-height: 460px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms > div {
+  width: 90%;
+  max-width: 500px;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .forms {
+    padding: 10px;
+  }
+}

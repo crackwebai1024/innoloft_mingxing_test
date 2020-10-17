@@ -1,0 +1,25 @@
+.item {
+  padding: 5px;
+  padding-left: 50px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.item > i {
+  width: 40px;
+}
+
+.item:hover {
+  background-color: #aaa;
+  width: 70%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .item:hover {
+    background-color: #aaa;
+  }
+}
